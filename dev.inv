@@ -1,3 +1,2 @@
----
-[dev]
+[myhost]
 172.31.42.107 ansible_user=ec2-user
