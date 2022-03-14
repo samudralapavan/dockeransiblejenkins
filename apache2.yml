@@ -1,0 +1,9 @@
+---
+- hosts: webserver
+  become: true
+  tasks:
+  - name: install apache2
+    yum:
+      name: httpd
+      update_cache: yes
+      state: present
