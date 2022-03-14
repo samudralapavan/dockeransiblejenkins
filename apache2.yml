@@ -7,3 +7,7 @@
       name: httpd
       update_cache: yes
       state: present
+  - name: copy the file
+    copy:
+       src: index.html
+       dest: /var/www/html/index.html
